@@ -68,7 +68,7 @@ public class SourceDemo {
 
             loginPage.open();
             test.info("Opened SauceDemo login page");
-            loginPage.login("standard_user", "secrt_sauce");
+            loginPage.login("standard_user", "secret_sauce");
             test.info("Logged in as standard_user");
             inventoryPage.addFirstProductToCart();
             test.info("Added first product to cart");
